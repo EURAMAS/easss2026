@@ -1,1 +1,1 @@
-EUMAS2024: European Workshop on MultiAgent Systems
+EASSS2026: 26th European Agent Systems Summer School

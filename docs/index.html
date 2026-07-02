@@ -65,137 +65,6 @@
 			color:white;
 			padding:4px;
 		}
-
-		/* Added for EASSS 2026 updates */
-		.hero-header {
-			margin-top: 70px;
-			padding: 0;
-			min-height: 360px;
-			background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url('https://euramas.github.io/eumas2026/images/mau_02.jpg');
-			background-size: cover;
-			background-position: center;
-			color: #fff;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			text-align: center;
-		}
-		.hero-header .hero-content {
-			padding: 80px 20px;
-		}
-		.hero-header h1,
-		.hero-header h4,
-		.hero-header h5 {
-			color: #fff;
-			text-shadow: 0 2px 8px rgba(0,0,0,0.45);
-		}
-		.hero-header h1 {
-			font-weight: 700;
-			font-size: 52px;
-		}
-		.cta-button {
-			display: inline-block;
-			padding: 12px 20px;
-			margin: 10px 0 20px 0;
-			background: #1f6f8b;
-			color: #fff !important;
-			border-radius: 4px;
-			font-weight: 700;
-			text-decoration: none;
-		}
-		.cta-button:hover {
-			background: #15526a;
-			text-decoration: none;
-		}
-		.program-overview,
-		.schedule-table,
-		.fee-table {
-			width: 100%;
-			border-collapse: collapse;
-			margin: 20px 0;
-		}
-		.program-overview th,
-		.program-overview td,
-		.schedule-table th,
-		.schedule-table td,
-		.fee-table th,
-		.fee-table td {
-			border: 1px solid #333;
-			padding: 12px;
-			vertical-align: top;
-		}
-		.program-overview th,
-		.schedule-table th,
-		.fee-table th {
-			background: #f2f2f2;
-			font-weight: 700;
-		}
-		.program-overview td,
-		.schedule-table td,
-		.fee-table td {
-			text-align: left;
-		}
-		.schedule-table .time-cell {
-			width: 120px;
-			font-weight: 700;
-			text-align: center;
-			white-space: nowrap;
-		}
-		.schedule-table .break-cell {
-			background: #f7f7f7;
-			font-style: italic;
-			text-align: center;
-		}
-		.schedule-table .tutorial-cell strong {
-			display: block;
-			margin-bottom: 6px;
-		}
-		.tutorial-card,
-		.hotel-card {
-			border: 1px solid #ddd;
-			border-radius: 6px;
-			padding: 18px;
-			margin: 18px 0;
-			background: #fff;
-			box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-		}
-		.tutorial-card h4,
-		.hotel-card h4 {
-			margin-top: 0;
-		}
-		.hotel-card {
-			display: flex;
-			gap: 20px;
-			align-items: flex-start;
-		}
-		.hotel-card img {
-			width: 300px;
-			height: 180px;
-			object-fit: cover;
-			border-radius: 4px;
-		}
-		.hotel-card .hotel-info {
-			flex: 1;
-		}
-		@media (max-width: 768px) {
-			.hero-header h1 {
-				font-size: 38px;
-			}
-			.hotel-card {
-				display: block;
-			}
-			.hotel-card img {
-				width: 100%;
-				height: auto;
-				margin-bottom: 15px;
-			}
-			.program-overview,
-			.schedule-table,
-			.fee-table {
-				font-size: 14px;
-			}
-		}
-
 	</style>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H3R7Q87MEP"></script>
@@ -241,19 +110,18 @@
 			<a class="navbar-brand" href="https://euramas.org/"><img
 					src="images/euramas.jpeg" alt="euramas" height="40"
 					class="d-inline-block"></a> &nbsp; &nbsp;
-			<a class="navbar-brand" href="https://mau.se/en/" target="_blank">Malmö University</a> &nbsp; &nbsp;
+			<a class="navbar-brand" href="https://www.ucd.ie"><img src="https://www.ucd.ie/t4media/crest-ucd.svg"
+					alt="UCD" width="25" class="d-inline-block"></a> &nbsp; &nbsp;
 		</div>
 		</div>
 	</nav>
 
 
 	<!--Jumbotron-->
-	<div class="jumbotron hero-header">
-		<div class="hero-content">
-			<h1 class="display-4">EASSS 2026</h1>
-			<h4>The 26th European Agent Systems Summer School</h4>
-			<h5>September 21–23, 2026 • Malmö, Sweden</h5>
-		</div>
+	<div class="jumbotron bg-light text-md-center">
+		<h1 class="display-4">EASSS 2026</h1>
+		<h4>The 26th European Agent Systems Summer School</h4>
+		<h5>September 21-23, 2026 • Malmö, Sweden</h5>
 	</div>
 
 	<!-- ABOUT -->
@@ -440,140 +308,534 @@
 		</div>
 	</section>
 
+	<!--
+	<section id="cfp">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 col-sm-12">
+					<div class="section-title">
+						<h3 style="text-align:left">Call For Participation</h3>
+					</div>
+				</div>
+				<div style="text-align: justify">
+					<!-- <p>
+						The 24th European Agent Systems Summer School (EASSS) will be held in the
+						<a href="https://www.ucd.ie/cs/">School of Computer Science<a/> of 
+						<a href="https://www.ucd.ie">University College Dublin</a> from August 19th 
+						until August 24th 2024.
+					</p>
+					<p>
+						This year, we are delighted to offer a rich programme of both introductory and
+						advanced courses on a range of topics in the area of Autonomous Agents and
+						Multi-Agent Systems including: Reinforcement Learning (RL); Coordination, Organisations,
+						Institutions, Norms and Ethics (COINE), Engineering Multi-Agent Systems (EMAS) and
+						Agent-Based Modelling and Simulation (ABMS). Further details can be found <a href="#accepted">here</a>.
+					</p>
+					<p style="font-style: italic;">
+						In addition to these tutorials, we will invite topical keynote talks from leading researchers.
+					</p>
+					<p>
+						In addition to the tutorials, there will be an opportunity to to introduce yourself and your research
+						work in a "Me-in-3" session.  You will also be invited to engage in working groups to develop research
+						ideas around a given theme.  These ideas will be presented on the last day of EASSS and participants will
+						be invited to co-author and publish (via arxiv.org) a paper based on their working group.
+					</p>
+					<p>
+						Finally, on Saturday 24th August, we will hold a school hackathon where teams will attempt to
+						develop prototypes that will be presented. A prize will be awarded to the team that develops the
+						best prototype.
+					</p>
+					<h4>Registration</h4>
+					<p>
+						We are still in the process of setting up the registration and payment system.  Details of the
+						registration fee can be found in the table below.  Because EASSS 2026 is co-located with 
+						<a href="../eumas2024">EUMAS 2024</a>, we are delighted to offer a discounted joint registration
+						fee to allow you to attend both events (EASSS+EUMAS). You can also attend the free workshop on
+						Distributed Knowledge Graphs and Web Agents which will be held on the 29th August.
+					</p>
+					<P>
+						<b>
+							NEW! We are pleased to announce a number of student travel grants that will cover the costs of
+							attending the summer school.  To apply for a travel grant, please send a short statement of interest 
+							(why you want to attend the summer school) and confirmation that you have no other source of funding to
+							<a href="mailto:rem.collier@ucd.ie">rem.collier@ucd.ie</a>. Applications will be assessed on a rolling
+							basis until the funding runs out.
+						</b>
+					</p>
+					<P>
+						<b>
+							NOTE: You will need a letter from your host Institution clarifying that you have no alternative source
+							of funding to access the grant.
+						</b>
+					</P>
 
+					<table style="width:80%" align="center">
+						<tr>
+							<th style="width:30%"></th>
+							<th style="width:30%">Until</th>
+							<th style="width:20%">Student (Fee)</th>
+							<th style="width:20%">Non-Student (Fee)</th>
+							<!-- <th>Industry (Fee)</th> -->
+						<!-- </tr>
+						<tr style="height:2.8em">
+							<td style="text-align:left">
+								Early Bird:EASSS Only
+							</td>
+							<td>
+								10th August, 2024
+							</td>
+							<td>
+								<span class="early">&euro;270</span>
+							</td>
+							<td>
+								<span class="early">&euro;300</span>
+							</td>
+							<!-- <td>
+								<span class="early">&euro;350</span>
+							</td> -->
+						</tr>
+						<!-- <tr style="height:2.8em">
+							<td style="text-align:left">
+								Early Bird: EASSS + EUMAS
+							</td>
+							<td>
+								10th August, 2024
+							</td>
+							<td>
+								<span class="early">&euro;450</span>
+							</td>
+							<td>
+								<span class="early">&euro;550</span>
+							</td> -->
+							<!-- <td>
+								<span class="early">&euro;600</span>
+							</td> -->
+						<!-- </tr>
+						<tr style="height:2.8em">
+							<td style="text-align:left">
+								Normal: EASSS Only
+							</td>
+							<td>
+								19th August, 2024
+							</td>
+							<td>
+								<span class="normal">&euro;300</span>
+							</td>
+							<td>
+								<span class="normal">&euro;350</span>
+							</td> -->
+							<!-- <td>
+								<span class="normal">&euro;400</span>
+							</td> -->
+						<!-- </tr>
+						<tr style="height:2.8em">
+							<td style="text-align:left">
+								Normal: EASSS + EUMAS
+							</td>
+							<td>
+								19th August, 2024
+							</td>
+							<td>
+								<span class="normal">&euro;500</span>
+							</td>
+							<td>
+								<span class="normal">&euro;600</span>
+							</td> -->
+							<!-- <td>
+								<span class="normal">&euro;650</span>
+							</td> -->
+						<!-- </tr>
+					</table>
+					<p style="padding-top:30px">
+						To register you intent to attend EASSS 2026, please go to the
+						<a href="https://hub.ucd.ie/usis/W_HU_MENU.P_PUBLISH?p_tag=CONFEASSS">Payment Site</a>. This site
+						is a booking system hosted by <a href="https://www.ucd.ie">University College Dublin</a> that allows
+						you to pay by credit or debit card.  In order to make a reservation, you will need to create a UCD
+						Connect Account. You can use this account to amend your booking if it is necessary.
+					</p>
+					<p>
+						If you require a letter for a visa, please complete the registration form and contact
+						Prof. Rem Collier via email: <a href="mailto:rem.collier@ucd.ie">rem.collier@ucd.ie</a>.
+					</p>
+					<p>
+						Any additional queries can also be directed to this email address.
+					</p> 
+					<p>  
+						To be announced soon!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section> -->
 
-	<!-- PROGRAMME -->
+	    <!-- PROGRAMME -->
     <section id="programme" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-3 col-md-6 col-sm-12">
                     <div class="section-title">
-                        <h3>EASSS 2026 Program</h3>
+                        <h3>EASSS2026 Program</h3>
                     </div>
                 </div>
             </div>
             <div style="text-align: justify">
-                <p>
-                    EASSS 2026 tutorials will run on <strong>Monday, 21 September</strong> and <strong>Tuesday, 22 September 2026</strong> as part of the pre-conference program of EUMAS 2026. On <strong>Wednesday, 23 September</strong>, EASSS participants can also attend the joint EASSS/EUMAS keynote session before the main EUMAS conference program begins.
+                <p style="text-align: justify;">
+                    EASSS2026 will take place on Monday + Tuesday, Sep 21-22, 2026, as part of the pre-conference program of EUMAS2026, which will take place Wednesday - Friday, Sept 23-25, 2026.
                 </p>
-                <p><i>The schedule below is preliminary and may be updated closer to the event.</i></p>
-
-                <h4>Tutorial Overview</h4>
-                <table class="program-overview">
-                    <thead>
-                        <tr>
-                            <th style="width:35%">Tutorial</th>
-                            <th style="width:35%">Tutors</th>
-                            <th style="width:30%">Affiliation</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Agent-Based Modeling, Social Simulations, Multi-Agent Systems, Emergence, NetLogo, Applications, and Policymaking Support</strong></td>
-                            <td>Sz-Ting (Christine) Tzeng; Bertilla Fabris</td>
-                            <td>Umeå University, Sweden</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Multiagent Reinforcement Learning (MARL) for Traffic Control</strong></td>
-                            <td>Ana Lúcia Cetertich Bazzan</td>
-                            <td>University of São Paulo, Polytechnic School, Brazil</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Formal Methods for Safe Reinforcement Learning</strong></td>
-                            <td>Francesco Belardinelli; Omar Adalat</td>
-                            <td>Imperial College London, United Kingdom</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Multiagentic AI: Engineering Safe and Flexible Systems</strong></td>
-                            <td>Amit K. Chopra; Munindar P. Singh</td>
-                            <td>Lancaster University, United Kingdom; North Carolina State University, USA</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h4>Schedule</h4>
-                <table class="schedule-table">
-                    <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Monday, Sept 21</th>
-                            <th>Tuesday, Sept 22</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="time-cell">09:00–10:30</td>
-                            <td class="tutorial-cell"><strong>Agent-Based Modeling, Social Simulations, Multi-Agent Systems, Emergence, NetLogo, Applications, and Policymaking Support</strong></td>
-                            <td class="tutorial-cell"><strong>Multiagent Reinforcement Learning (MARL) for Traffic Control</strong></td>
-                        </tr>
-                        <tr>
-                            <td class="time-cell">10:30–11:00</td>
-                            <td class="break-cell">Coffee Break</td>
-                            <td class="break-cell">Coffee Break</td>
-                        </tr>
-                        <tr>
-                            <td class="time-cell">11:00–12:30</td>
-                            <td class="tutorial-cell"><strong>Agent-Based Modeling, Social Simulations, Multi-Agent Systems, Emergence, NetLogo, Applications, and Policymaking Support</strong> <em>(continued)</em></td>
-                            <td class="tutorial-cell"><strong>Multiagent Reinforcement Learning (MARL) for Traffic Control</strong> <em>(continued)</em></td>
-                        </tr>
-                        <tr>
-                            <td class="time-cell">13:00–14:00</td>
-                            <td class="break-cell">Lunch</td>
-                            <td class="break-cell">Lunch</td>
-                        </tr>
-                        <tr>
-                            <td class="time-cell">14:00–15:30</td>
-                            <td class="tutorial-cell"><strong>Formal Methods for Safe Reinforcement Learning</strong></td>
-                            <td class="tutorial-cell"><strong>Multiagentic AI: Engineering Safe and Flexible Systems</strong></td>
-                        </tr>
-                        <tr>
-                            <td class="time-cell">15:30–16:00</td>
-                            <td class="break-cell">Coffee Break</td>
-                            <td class="break-cell">Coffee Break</td>
-                        </tr>
-                        <tr>
-                            <td class="time-cell">16:00–17:30</td>
-                            <td class="tutorial-cell"><strong>Formal Methods for Safe Reinforcement Learning</strong> <em>(continued)</em></td>
-                            <td class="tutorial-cell"><strong>Multiagentic AI: Engineering Safe and Flexible Systems</strong> <em>(continued)</em></td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h4>Tutorials and Short Bios</h4>
-
-                <div class="tutorial-card" id="tutorial-abm">
-                    <h4>Agent-Based Modeling, Social Simulations, Multi-Agent Systems, Emergence, NetLogo, Applications, and Policymaking Support</h4>
-                    <p><strong>Tutors:</strong> Sz-Ting (Christine) Tzeng, Postdoctoral Researcher; Bertilla Fabris, PhD Student.</p>
-                    <p><strong>Affiliation:</strong> Umeå University, Sweden.</p>
-                    <p><strong>Short bio:</strong> Sz-Ting (Christine) Tzeng is a postdoctoral researcher at Umeå University. Bertilla Fabris is a PhD student at Umeå University. Their tutorial introduces agent-based modelling and social simulation, with attention to multi-agent systems, emergence, NetLogo-based modelling, applications, and policymaking support.</p>
-                </div>
-
-                <div class="tutorial-card" id="tutorial-marl-traffic">
-                    <h4>Multiagent Reinforcement Learning (MARL) for Traffic Control</h4>
-                    <p><strong>Tutor:</strong> Ana Lúcia Cetertich Bazzan.</p>
-                    <p><strong>Affiliation:</strong> University of São Paulo, Polytechnic School, Brazil.</p>
-                    <p><strong>Short bio:</strong> Ana Lúcia Cetertich Bazzan’s PhD thesis focused on reinforcement learning and game-theoretic approaches to traffic signal control. From 1999 to 2024, she was a professor at UFRGS and led the MAS group there. After retiring in 2024, she continued at UFRGS as visiting professor and, since June 2026, she has also been a visiting professor at the Department of Transportation at the University of São Paulo. She is a well-known expert in MARL for traffic signal control, co-author of a book and surveys on the topic, and has served the AAMAS community, including as general co-chair of AAMAS 2014.</p>
-                </div>
-
-                <div class="tutorial-card" id="tutorial-formal-methods-safe-rl">
-                    <h4>Formal Methods for Safe Reinforcement Learning</h4>
-                    <p><strong>Tutors:</strong> Dr. Francesco Belardinelli, Senior Lecturer; Mr. Omar Adalat, PhD Student.</p>
-                    <p><strong>Affiliation:</strong> Imperial College London, United Kingdom.</p>
-                    <p><strong>Short bio:</strong> Francesco Belardinelli is a senior lecturer in the Department of Computing at Imperial College London, where he leads research on formal methods for AI. His work focuses on the specification and verification of complex AI systems, including safe reinforcement learning. He has organized several editions of the Summer School on Safe and Trusted AI and teaches modules related to symbolic AI, strategic reasoning, and formal methods for safe AI. Omar Adalat is a PhD student in the Department of Computing at Imperial College London. His research focuses on safe multi-agent learning with probabilistic and quantitative temporal logic constraints and learning from formal specifications. The tutorial has previously been delivered at AAAI 2025, ECAI 2025, and AAMAS 2026.</p>
-                </div>
-
-                <div class="tutorial-card" id="tutorial-agentic-ai">
-                    <h4>Multiagentic AI: Engineering Safe and Flexible Systems</h4>
-                    <p><strong>Tutors:</strong> Amit K. Chopra, Senior Lecturer; Munindar P. Singh, SAS Institute Distinguished Professor.</p>
-                    <p><strong>Affiliations:</strong> Lancaster University, United Kingdom; North Carolina State University, USA.</p>
-                    <p><strong>Short bio:</strong> Amit K. Chopra is a senior lecturer at Lancaster University. His expertise lies in engineering abstractions for multiagent systems, including protocols, norms, and platforms, and his work has appeared in major AI venues including AAMAS, IJCAI, and AAAI. Munindar P. Singh is the SAS Institute Distinguished Professor of Computer Science at North Carolina State University. His research has shaped models of interaction, including formalizations of intentions, social commitments, and communication, and he has received major recognitions from AAAI, AAAS, ACM, IEEE, ACM SIGAI, and IFAAMAS.</p>
-                </div>
+                <p style="text-align: justify;">
+                   The Summer School will consist of a three day program, consisting of differen tutorials as well as an overlapp with the EUMAS conference, which gives participants the possibility to attend keynote lectures.
+                </p>
+                <img src = "images/program.png" width = "70%" />
+                <p style="text-align: justify;">
+                    <i>This is the preliminary schedule for the EASSS Summer School and the EUMAS Main Conference. Please note that the listed times are provisional and may be subject to change. A final schedule will be published closer to the event. </i>
+                </p>
             </div>
+
+            
+
         </div>
     </section>
 
+	<!-- <section id="programme">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 col-sm-12">
+					<div class="section-title">
+						<h3 style="text-align:left">Programme</h3>
+					</div>
+				</div>
+				<div style="text-align: justify;">
+					<p>
+						We are delighted to announce the programme for EASSS 2026. This years programme 
+						has been organised around 4 key research areas of the Multi-Agent Systems Community:
+					</p>
+					<ul>
+						<li>Applications of MAS</li>
+						<li>Reinforcement Learning (RL)</li>
+						<li>Coordination, Organisations, Institutions, Norms and Ethics (COINE)</li>
+						<li>Engineering Multi-Agent Systems (EMAS)</li>
+						<li>Agent-Based Modelling and Simulation (ABMS)</li>
+					</ul>
+					<p>
+						Each day will focus on one of these areas and will consist a keynote talk by a leading
+						researcher together with one or two tutorials on that area.
+					</p>
+					<p>
+						Along side this, we will be running a series of working groups where school participants
+						will work together to develop insights into a self selected research topic.  At the end
+						of the workshop, each group will present their findings. Following this, they will write
+						a group report which will be published on <a href="https://arxiv.org/">arxiv.org</a> and
+						linked to from the school website.
+					</p>
+					<p>
+						Finally, we have also added an additional day to the workshop (Saturday 24th August) when
+						we will run a hackathon challenge.
+					</p>
+					<table style="width:100%">
+						<tr>
+							<th></th>
+							<th style="width:15%">Monday</th>
+							<th style="width:15%">Tuesday</th>
+							<th style="width:15%">Wednesday</th>
+							<th style="width:15%">Thursday</th>
+							<th style="width:15%">Friday</th>
+							<th style="width:15%">Saturday</th>
+						</tr>
+						<tr>
+							<td>9:00</td>
+							<td rowspan="2">Registration</td>
+							<td class="keynote" rowspan="2"><a style="color:white" href="#ckn">COINE Keynote<br/>Prof. Maite Lopez Sanchez</a></td>
+							<td class="keynote" rowspan="2"><a style="color:white" href="#rlkn"></a>RL Keynote<br/>Prof. Stefano V. Albrecht</a></td>
+							<td class="keynote" rowspan="2"><a style="color:white" href="#ekn">EMAS Keynote<br/>Prof. Viviana Mascardi</a></td>
+							<td class="keynote" rowspan="2"><a style="color:white" href="#akn">ABMS Keynote<br/>Gary Polhill</a></td>
+							<td class="hackathon" rowspan="15">Hackathon</td>
+						</tr>
+						<tr>
+							<td>9:30</td>
+						</tr>
+						<tr>
+							<td>10:00</td>
+							<td class="general">Welcome</td>
+							<td class="tutorial" rowspan="3">Tutorial 1:<br/>Deep RL</td>
+							<td class="tutorial" rowspan="3">Tutorial 3:<br/>Current Trends in<br/>Argumentation Dynamics</br></td>
+							<td class="tutorial" rowspan="3">Tutorial 4:<br>Engineering Safe MAS</td>
+							<td class="tutorial" rowspan="3">Tutorial 6:<br/>HPC &amp; ABM</td>
+						</tr>
+						<tr>
+							<td>10:30</td>
+							<td class="keynote" rowspan="2"><a style="color:white" href="#skn">School Keynote:</br>Prof. Munindar Singh</a></td>
+						</tr>
+						<tr>
+							<td>11:00</td>
+						</tr>
+						<tr>
+							<td>11:30</td>
+							<td colspan="6">B R E A K</td>
+						</tr>
+						<tr>
+							<td>12:00</td>
+							<td class="general" rowspan="3">Me-in-3<br/>Introduce yourself</td>
+							<td class="tutorial" rowspan="3">Tutorial 1:<br/>Deep RL</td>
+							<td class="tutorial" rowspan="3">Tutorial 3:<br/>Current Trends in<br/>Argumentation Dynamics</td>
+							<td class="tutorial" rowspan="3">Tutorial 4:<br/>Engineering Safe MAS</td>
+							<td class="tutorial" rowspan="3">Tutorial 6:<br/>HPC &amp; ABM</td>
+						</tr>
+						<tr>
+							<td>12:30</td>
+						</tr>
+						<tr>
+							<td>13:00</td>
+						</tr>
+						<tr>
+							<td>13:30</td>
+							<td rowspan="2" colspan="6">L U N C H</td>
+						</tr>
+						<tr>
+							<td>14:00</td>
+						</tr>
+						<tr>
+							<td>14:30</td>
+							<td class="keynote" rowspan="2"><a style="color:white" href="#appkn">Applications Keynote:<br/>Dr Panagiotis Tsarchopoulos</a</td>
+							<td class="tutorial" rowspan="3">Tutorial 2:<br/>Continual Learning</td>
+							<td class="groups" rowspan="3">Group Work</td>
+							<td class="tutorial" rowspan="3">Tutorial 5:</br>Game Theoretic Verification</td>
+							<td class="groups" rowspan="3">Group Work</td>
+						</tr>
+						<tr>
+							<td>15:00</td>
+						</tr>
+						<tr>
+							<td>15:30</td>
+							<td class="groups">Idea Generation</td>
+						</tr>
+						<tr>
+							<td>16:00</td>
+							<td colspan="2">B R E A K</td>
+							<td class="general">W R A P &nbsp; U P</td>
+							<td colspan="2">B R E A K</td>
+						</tr>
+						<tr>
+							<td>16:30</td>
+							<td class="groups" rowspan="3">Group Work</td>
+							<td class="tutorial" rowspan="3">Tutorial 2:<br/>Continual Learning</td>
+							<td rowspan="4">Walking Tour of<br/>Dublin City</td>
+							<td class="tutorial" rowspan="3">Tutorial 5:<br/>Game Theoretic Verification</td>
+							<td class="groups" rowspan="3">Group Work &<br/>Presentations</td>
+							<td class="hackathon" rowspan="4">Demonstrations<br/>&</br>Prize Giving</td>
+						</tr>
+						<tr>
+							<td>17:00</td>
+						</tr>
+						<tr>
+							<td>17:30</td>
+						</tr>
+						<tr>
+							<td>18:00</td>
+							<td class="general" colspan="2">W R A P &nbsp; U P</td>
+							<td class="general" colspan="2">W R A P &nbsp; U P</td>
+						</tr>
+						<tr>
+							<td>Social:</td>
+							<td>Welcome Drinks</td>
+							<td>Irish Dancing</td>
+							<td>Irish Pub Visit</td>
+							<td>Dinner (T.B.C.)</td>
+							<td></td>
+							<td></td>
+					</table>
+					<div style="padding-top:20px">
+						<h4>Keynote Speakers</h4>
+						<ul>
+							<li>
+								<b id="skn">School Keynote:  Sociotechnical Systems: History, Principles, and Programming</b><br/>
+								<i>Professor Munindar Singh</i><br/>
+								A sociotechnical system (STS) comprises a social tier of stakeholders (people and organizations) and a technical
+								tier of computational entities and resources.  An STS exists to advance the requirements and values of its 
+								stakeholders and is governed through norms between them.  STSs can be engineered or emergent and are usually 
+								both.  The STS conception accords with many of our intuitions about the real world and it is obvious that multiagent
+								systems would be a way to realize STSs.  Yet it is not clear how to construct an STS. In the first part of the talk,
+								I give a quick historical overview of multiagent systems (and what was called distributed AI) leading up to the 
+								modern era.  I also describe how STSs relate to challenges and opportunities for research on autonomous agents and
+								multiagent systems. In the second part of the talk, I describe research on STSs terms that avoids the limitations 
+								of current approaches, especially with respect to autonomy. I introduce interaction protocols and how to marry 
+								flexibility and rigor and describe how we can reason about norms and agent operations jointly.
+							</li>
+							<li>
+								<b id="appkn">Applications Keynote: Multi-Agent Systems in Smart Cities</b><br/>
+								<i>Dr Panagiotis Tsarchopoulos</i><br/>
+								As urban environments evolve into highly interconnected and complex systems, Multi-Agent Systems (MAS) 
+								provide a robust framework for managing various smart city components. This tutorial provides an overview 
+								of how MAS can be applied across a wide array of smart city domains, including urban management, 
+								transportation, energy, public safety, smart homes and environmental monitoring. The session will delve 
+								into the practical aspects of integrating MAS into smart city infrastructure, supported by real-world 
+								examples and case studies that demonstrate implementations in various cities. Participants will gain an 
+								understanding of how MAS can optimize the functioning of these smart city systems, leading to more 
+								efficient, scalable, and resilient urban environments.
+							</li>
+							<li><b id="ckn">COINE Keynote: Inducing Ethical Behaviour in Autonomous Agents through Value Alignment</b><br/>
+								<i>Professor Maite Lopez Sanchez</i><br/>
+								In this keynote, we explore how ethical values can shape the behaviour of autonomous agents. We 
+								begin with a concise introduction to the mathematical formalization of moral/ethical values, 
+								providing the foundation for their practical application in multi-agent systems. Next, we delve 
+								into various approaches to value alignment in the context of decision-making and learning 
+								processes. Special attention will be given to optimization techniques and reinforcement learning 
+								as powerful tools for aligning agent behaviour with ethical standards. Finally, we will demonstrate 
+								the application of these concepts through a series of simplified yet illustrative use cases, 
+								highlighting the potential of integrating ethics into autonomous decision-making.
+							</li>
+							<li>
+								<b id="rlkn">RL Keynote: From Deep Reinforcement Learning to LLM-based Agents: Perspectives on Current Research</b><br/>
+								<i>Associate Professor Stefano V. Albrecht</i><br/>
+								Since the recent successes of large language models (LLMs), we are beginning to see a shift of 
+								attention from deep reinforcement learning to LLM-based agents. While deep RL policies are 
+								typically learned from scratch to maximise some defined return objective, LLM-agents use an 
+								existing LLM at their core and focus on clever prompt engineering and downstream specialisation 
+								of the LLM via supervised and reinforcement learning techniques. In this talk, I will first 
+								provide a broad overview of my group&apos;s research in deep RL, which focuses among other topics 
+								on developing sample-efficient and robust RL algorithms for both single- and multi-agent 
+								control tasks, including industry applications in autonomous driving and multi-robot warehouses. 
+								I will then present our recent research into LLM-agents, where we propose an approach for 
+								household robotics that takes into account user preferences to achieve more robust and 
+								effective planning. I will conclude with some personal observations about the state of 
+								LLM-agent research: (a) many papers in this field follow essentially the same recipe by 
+								focussing on prompt engineering and downstream specialisation; (b) this recipe makes their 
+								scientific claims brittle as they depend crucially on the specific LMM engine, and (c) LLMs
+								are not natively designed to maximise objectives for optimal control and decision making. Based
+								on these observations, I believe some fruitful research avenues can be identified.
+							</li>
+							<li>
+								<b>EMAS Keynote: Engineering Multiagent Systems: an introduction</b><br/>
+								<i>Professor Viviana Mascardi</i><br/>
+								As any piece of software, agents and MAS must be modeled, designed, implemented, tested. In this
+								talk, we will discuss the stages required for engineering MAS, along with tools and methods supporting them.
+							</li>
+							<li><b id="akn">ABMS Keynote: Why is agent-based modelling such an awkward customer for institutional HPC?</b><br/>
+								<i>Gary Polhill</i><br/>
+								This talk will briefly introduce agent-based modelling, which is a kind of computer simulation 
+								that explicitly represents the emergent dynamics from the interactions of heterogeneous interacting
+								agents. Agents can represent people, but also proteins, plants, non-human animals, as well as households,
+								businesses, and even nation states. After giving some examples of agent-based models from my own work, 
+								I will then show various ways in which high-performance computing (HPC) is, if not essential for studying 
+								agent-based models, then at least highly advantageous. However, the ways in which HPC access is 
+								institutionalized mean agent-based modellers are not typically using these resources, with work still 
+								stuck on personal computing devices. New solutions are needed, some of which might even entail some 
+								fun computing science.	
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4>Tutorials</h4>
+						<ul>
+							<li><b>Tutorial 1: Deep Reinforcement Learning: Foundations and Practical Environment Setup for Real-
+								World Applications</b><br/>
+								This tutorial delves into the field of reinforcement learning (RL), a specialized area of
+								machine learning focused on developing autonomous agents that behave optimally within
+								specific environments. The tutorial will begin by covering fundamental RL concepts such
+								as agents, environments, and learning paradigms, before discussing why deep learning is
+								increasingly employed to solve complex, high-dimensional decision-making challenges.
+								The session will introduce two principal types of deep RL algorithms: value-based and
+								policy-based methods, each underscored by their respective applications and benefits.
+								Following the theoretical overview, the tutorial will transition into a hands-on component
+								where participants will learn to set up a training environment tailored for RL agents.
+								This part of the tutorial will include a practical introduction to OpenAI’s Gym library and
+								references to prominent libraries that implement deep RL algorithms. We will wrap up by
+								tackling common deep RL challenges, such as managing the balance between exploration
+								and exploitation and overcoming convergence issues. This comprehensive approach will
+								provide attendees with the foundational knowledge necessary to initiate their own RL
+								environments for custom projects.<br/>
+								<b><i>Tutor: Franco Terranova, University of Lorraine</i></b>
+							</li>
+							<li><b>Tutorial 2: Continual Learning</b><br/>
+								Continual learning is a fundamental challenge in artificial intelligence, focusing on the
+								ability of agents to learn continuously from a stream of data while retaining previously ac-
+								quired knowledge. This tutorial provides a comprehensive overview of continual learning
 
+								techniques, ranging from theoretical foundations to practical applications. Participants
+								will gain insights into the latest advancements in this field and learn how to address the
+								issues of catastrophic forgetting and model stability. Through hands-on exercises and
+								case studies, attendees will explore how continual learning can be applied to real-world
+								problems in various domains.<br/>
+								<b><i>Tutor: Andrii Krutsylo, Polish Academy of Sciences</i></b>
+							</li>
+							<li><b>Tutorial 3: Current Trends in Argumentation Dynamics</b><br/>
+								Abstract argumentation is a simple model for representing conflicting pieces of information
+								and reasoning from it. In particular, it can be used to model debates (e.g. for
+								deliberation or negotiation) between several agents. In this tutorial, we will review the
+								basic notions of abstract argumentation, and then focus on argumentation dynamics. This
+								topic has received much attention in the last 15 years, with two main types of research
+								questions: 1. given an information about the acceptability of arguments, how can we
+								modify the argumentation framework to comply with this information? 2. given a mod-
+								ification of the argumentation framework, what is the impact of this modification on the
+								acceptability of arguments? The first question is related to strategic aspects (how can an
+								agent convince her opponent to agree with her?), while the second question is mainly
+								about computational aspects (how can we re-compute efficiently the acceptability status
+								of arguments?). We will present the main contributions about both these questions, motivated
+								by applications in the domain of (argument-based) automated negotiation.<br/>
+								<b><i>Tutor: Jean-Guy Mailly, IRIT, University of Toulouse Capitole</i></b>
+							</li>
+							<li><b>Tutorial 4: Engineering Safe Multiagent Systems: an Introduction to Formal and Runtime Verifica-
+								tion of Agents and MAS</b><br/>
+								In this tutorial we will discuss the importance of properly engineering agents and MAS, and
+								we will introduce formal verification as a means to engineer safe systems. We will hence in-
+								troduce the notions of formal and semi-formal verification, with special attention to runtime
 
+								verification, and we will provide an overview on the literature on this topic, to clarify the
+								context and the achieved results. Finally, we will go into the details of runtime verification
+								of MAS, exploiting the RML Runtime Monitoring Language1 as a tool for showing demos
+								and examples.<br/>
+								<b><i>Tutor: Professor Viviana Mascardi, Professor Davide Ancona, Professor Angelo Ferrando</i></b>
+							</li>
+							<li><b>Tutorial 5: Game-Theoretic Verification of Multi-Agent Systems</b><br/>
+								Formal verification addresses the issue of correctness, which is a fundamental concern in
+								computer science. In the context of multi-agent systems, rational verification is a game-
+								theoretic counterpart of the conventional formal verification of computing systems. The
+								rational verification problem is concerned with checking which properties will hold in
+								a system when its constituent agents are assumed to behave rationally in pursuit of in-
+								dividual objectives. In this tutorial, we will introduce the fundamental framework for
+								rational verification, including concepts such as models of games, temporal logic, model
+								and equilibrium checking problems, and the Reactive Modules modelling language. We
+								will also present EVE, a formal verification tool that can be used to solve the most impor-
+								tant decision problems in rational verification. We will show how we can model examples
+								of multi-agent systems and use EVE to verify some given properties.<br/>
+								<b><i>Tutor: Professor Muhammad Najib</i></b>
+							</li>
+							<li><b>Tutorial 6: High-Performance Computing with Agent-Based Models</b><br/>
+								This course will briefly introduce the steps you need to take to use your agent-based 
+								model on high-performance computing facilities. It focuses on agent-based models developed 
+								using NetLogo, and potentially other environments based on the Java Virtual Machine, but 
+								contains material relevant to any agent-based model in whatever language. It comprises 
+								a cut-down version of <a href="https://exascale.hutton.ac.uk/hpc-abm">an earlier two-day 
+								tutorial on the same subject</a><br/>
+								<b><i>Tutor: Gary Polhill</i></b>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<!-- <section id="colocated" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 col-sm-12">
+					<div class="section-title">
+						<h1>Colocated Events</h1>
+					</div>
+				</div>
+				<p>We are pleased to announce a number of events will take place immediately after EASSS 2026:</p>
+				<ul>
+					<li><a href="https://euramas.github.io/eumas2024/" target="_blank" rel="noopener noreferrer">European Conference on Multi-Agent Systems (EUMAS
+							2024)</a></li>
+					<li><a href="https://github.com/w3c-cg/webagents/blob/main/Meetings/2024-08-29-DKG-workshop/README.md" target="_blank" rel="noopener noreferrer">
+						Joint Distributed Knowledge Graphs (COST CA 19134) &amp; W3C Web Agents Community Group Workshop</a></li>
+				</ul>
+				<p>A Special Joint-Registration Offer is available for EASSS attendees who also wish to attend EUMAS.</p>
+			</div>
+		</div>
+	</section> -->
+
+	
     <!-- REG -->
     <section id="registration" data-stellar-background-ratio="0.5">
         <div class="container">
@@ -583,68 +845,26 @@
                         <h3>Registration</h3>
                     </div>
                 </div>
-                <div class="col-sm-12">
-                    <p>
-                        Registration for <strong>EASSS 2026</strong> and <strong>EUMAS 2026</strong> is now open. Registration is handled externally by Invajo, the official conference registration and payment provider. A discounted fee applies for participants registering for both EASSS and EUMAS.
-                    </p>
-                    <p>
-                        <a class="cta-button" href="https://registration.invajo.com/dbe9febb-b08d-425a-928c-b80d33a6c701" target="_blank" rel="noopener noreferrer">Register for EASSS / EUMAS 2026</a>
-                    </p>
-                    <table class="fee-table">
-                        <thead>
-                            <tr>
-                                <th rowspan="2">Attendance</th>
-                                <th colspan="2">Student Fee<br/>(including PhD students)</th>
-                                <th colspan="2">Non-Student Fee<br/>(researchers and industry)</th>
-                            </tr>
-                            <tr>
-                                <th>Early Bird<br/>(until July 24)</th>
-                                <th>Late<br/>(from July 25)</th>
-                                <th>Early Bird<br/>(until July 24)</th>
-                                <th>Late<br/>(from July 25)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>EASSS (Summer School)</td>
-                                <td style="text-align:center">250€</td>
-                                <td style="text-align:center">300€</td>
-                                <td style="text-align:center">280€</td>
-                                <td style="text-align:center">340€</td>
-                            </tr>
-                            <tr>
-                                <td>EUMAS (Main Conference)</td>
-                                <td style="text-align:center">300€</td>
-                                <td style="text-align:center">360€</td>
-                                <td style="text-align:center">350€</td>
-                                <td style="text-align:center">420€</td>
-                            </tr>
-                            <tr>
-                                <td>Both EASSS and EUMAS</td>
-                                <td style="text-align:center">500€</td>
-                                <td style="text-align:center">600€</td>
-                                <td style="text-align:center">600€</td>
-                                <td style="text-align:center">720€</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p style="text-align: justify;">
-                        <i>The registration fees are displayed in EUR for convenience only. Payments will be charged in SEK (Swedish krona) and may vary at the time of payment.</i>
-                    </p>
-                    <h4>Registration Policy</h4>
-                    <ul style="text-align: justify; color: #757575;">
-                        <li>Registration fees are charged in Swedish krona (SEK) and can be paid by credit card.</li>
-                        <li>Invoice payment is available for organizations with a valid VAT number.</li>
-                        <li>Registration fees are non-refundable. However, a registration can be transferred to a colleague via the registration system.</li>
-                    </ul>
-                    <h4>Visa Information</h4>
-                    <p style="text-align: justify;">
-                        EASSS participants who require an invitation letter should contact the EASSS organizers before registering. Invitation letters are issued only once registration is fully completed and the registration fee has been paid in full, at the discretion of the EASSS Chairs. Please contact us well in advance to allow sufficient time for visa processing.
-                    </p>
-                </div>
+                <p>
+                    The registration for EASSS2026 will open in June 2026, after the acceptance notifications for the main conference have been sent out.
+                </p>
+				<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal" rowspan="2">Attendance<br></th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal" colspan="2">Student Fee<br>(including PhD students)</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal" colspan="2"><span style="font-weight:bold">Non-Student Fee</span><br><span style="font-weight:bold">(researchers and industry) </span></th></tr>
+				<tr><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Early Bird<br>(until July 19)</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Late<br>(from July 20)</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Early Bird<br>(until July 19)</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Late<br>(from July 20)</th></tr></thead>
+				<tbody>
+				<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">EASSS (Summer School)</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">250€</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">300€</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">280€</td>
+				<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">340€</td></tr>
+				<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">EUMAS (Main Conference)</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">300€</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">360€</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">350€</td>
+				<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">420€</td></tr>
+				<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Both EASSS and EUMAS</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">500€</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">600€</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">600€</td>
+				<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:inherit;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">720€</td></tr>
+				</tbody></table>
+				<p style="text-align: justify;">
+                    <i>The registration fees are displayed in EUR for convenience only. Payments will be charged in SEK (Swedish krona) and may vary at the time of payment.</i>
+                </p>
             </div>
         </div>
     </section>
+
 
     <!-- VENUE -->
     <section id="local" data-stellar-background-ratio="0.5">
@@ -652,97 +872,160 @@
             <div class="row">
                 <div class="col-md-offset-3 col-sm-12">
                     <h3>Local Information</h3>
+                    <p>
                     <h4>The Venue</h4>
+                    </p>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-md-offset-3 col-sm-6">
                             <p style="text-align: justify;">
-                                EASSS 2026 will be held at Malmö University, located in southern Sweden. Malmö is Sweden’s third biggest city and can be easily reached by train, bus, car, and plane.
+                                The EUMAS 2026 conference will be held at Malmö University, which is located in southern Sweden. Malmö is Sweden’s third biggest city and can be easily reached by train, bus, car, and plane.
                             </p>
                             <p style="text-align: justify;">
-                                The summer school will take place in Malmö University’s <a href="https://mau.se/en/about-us/contact/niagara/" target="_blank">Niagara</a> building.
-                                Address: <a href="https://maps.app.goo.gl/zaPR47dTGugfUrLXA" target="_blank">Nordenskiöldsgatan 1, 211 19 Malmö</a>.
+                                The conference will take place in Malmö University’s <a href="https://mau.se/en/about-us/contact/niagara/" target="_blank">Niagara</a> building.
+                                Address for Niagara: <a href="https://maps.app.goo.gl/zaPR47dTGugfUrLXA" target="_blank">Nordenskiöldsgatan 1, 211 19 Malmö</a>.
                             </p>
                             <p style="text-align: justify; margin-bottom: 0;">
-                                The venue can be accessed by the following means of transportation:
+                                The Conference site can be accessed by the following means of transportation:
                             </p>
                             <ul style="text-align: justify; color: #757575;">
-                                <li><b>By plane:</b>
+                                <li><b>By plane</b>:
                                     <ul>
-                                        <li>Copenhagen Airport (Kastrup, EKCH) is a convenient choice with many direct routes. From the airport terminal, take the Öresund train to Malmö Central Station; the journey takes around 25 minutes.</li>
-                                        <li>Malmö Airport (Sturup, ESMS) is also available; take the airport bus to Malmö Central.</li>
-                                        <li><b>Copenhagen Kastrup is often the more convenient choice for travelling to Malmö.</b></li>
+                                        <li>If traveling by plane, Copenhagen Airport (Kastrup, EKCH) is a convenient choice with over 200 direct routes. From the airport terminal, you can take the commuter train to Malmö, which will take around 25 minutes: Öresund train to Malmö Central Station.</li>
+                                        <li>Malmö has an own airport as well (Sturup, ESMS): take the Airport buses to Malmö Central.</li>
+                                        <li><b>Copenhagen Kastrup is often the more convenient choice for traveling to Malmö.</b></li>
+                                    </ul>
+                                <li><b>By train</b>
+                                    <ul>
+                                        <li>From Malmö Central it is a 5 minutes walk to reach the building Niagara.</li>
+                                        <li>Malmö can be reached by night train from Berlin/Hamburg (DE) via Copenhagen (DK).</li>
                                     </ul>
                                 </li>
-                                <li><b>By train:</b>
-                                    <ul>
-                                        <li>From Malmö Central Station, Niagara is approximately a 5-minute walk.</li>
-                                        <li>Malmö can also be reached by night train from Berlin/Hamburg via Copenhagen.</li>
-                                    </ul>
-                                </li>
-                                <li><b>By taxi:</b> Uber and Bolt are widely used ride-sharing applications in Malmö.</li>
-                                <li><b>By car:</b> Parking garages are available nearby.</li>
+                                <li><b>By taxi</b>: Uber and Bolt are widely used ride-sharing applications in Malmö. </li>
+                                <li><b>By car</b>: If you prefer to take your car, there are parking garages in the area (32 SEK/h and 165 SEK/day).</li>
                             </ul>
                         </div>
-                        <div class="col-sm-6" style="text-align: center;">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7246.234597095239!2d12.98684759518362!3d55.60897456336889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a1559b147d81%3A0xa2379237f618d968!2sMalm%C3%B6%20University!5e0!3m2!1sen!2sse!4v1761826908161!5m2!1sen!2sse" width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-md-offset-3 col-sm-6" style="text-align: center;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7246.234597095239!2d12.98684759518362!3d55.60897456336889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a1559b147d81%3A0xa2379237f618d968!2sMalm%C3%B6%20University!5e0!3m2!1sen!2sse!4v1761826908161!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br/>
                         </div>
+                    
+
+
+<p>
+						<h4>Accommodation Options</h4>
+					</p>
+					<p>
+					Looking for a place to stay? Below you’ll find a curated selection of hotels located just a short distance from the conference venue. <br/><br/>
+
+					Please note that accommodation is <b>not included in the conference registration</b>. Malmö University has arranged special discounted rates at several nearby hotels through block bookings for EUMAS 2026 participants. Rooms are limited and offered on a first-come, first-served basis, so we encourage you to secure your stay early.
+					</p>
+					
+					<p>
+						<h4>Nearby Hotels</h4>
+					</p>
+					<p>
+						<div style="width:80%;float:left">
+							<table>
+								<tr>
+									<td style="border:0px;width:350px">
+										<img style="height:180px;width:300px" src="images/nobelhouse.jpg"/> <br/>
+										<button onclick="location.href='https://www.hotelnoblehouse.se/';">www.hotelnoblehouse.se</button>
+									</td>
+									<td style="border:0px;text-align:left;vertical-align:top">
+										<b>Best Western Plus Hotel Noble House (4 star)</b><br/>
+										In the heart of the city stands Hotel Noble House, a magnificent gem that enriches the city's skyline. With an unbeatable location adjacent to the city's central points, this is your perfect retreat. Here, you will not only find a place to stay but also a meeting place where the extraordinary becomes everyday. Our proximity to culture, shopping, nightlife, and lush parks completes your experience. Wake up to breathtaking views of the sea or the vibrant life of the city from many of our rooms. For detailed information and to book your stay with us, please visit our website.<br/><br/>
+
+										<b>Address:</b> Per Weijersgatan 6, 211 34 Malmö <br/>
+										(<a href="https://maps.app.goo.gl/dSGhrsPboCNQS9AE9" target="_blank">Google maps</a>, ca. 750m / 10 min walk from the conference venue)
+									</td>
+								</tr>
+							</table>
+						</div>
+					</p>
+		
+					<p>
+						<div style="width:80%;float:left">
+							<table>
+								<tr>
+									<td style="border:0px;width:350px">
+										<img style="height:180px;width:300px" src="images/storyhotel.jpg"/>
+									</td>
+									<td style="border:0px;text-align:left;vertical-align:top">
+										<b>Story Hotel Studio (4 star)</b><br/>
+										Down the street from Niagara and Orkanen, where the conference is being held, we find the Story hotel, a boutique hotel with modern rooms and a great view of Malmö’s city center or the Öresund Bridge and the sea. On the 14th floor of the hotel there is a bar and a large outdoor terrace with impressive views.<br/><br/>
+
+										<b>Address:</b> Tyfongatan 1, 211 19 Malmö <br/>
+										(<a href="https://maps.app.goo.gl/uU1oSz1Jp362XfPH7" target="_blank">Google maps</a>, ca. 500m / 7 min walk from the conference venue)
+									</td>
+								</tr>
+								<tr>
+									<td style="border:0px;text-align:left" colspan="2">
+										<button onclick="location.href='https://www.storyhotels.com';">www.storyhotels.com</button>
+									</td>
+								</tr>
+							</table>
+						</div>
+						
+					</p>
+
+					<p>
+						<div style="width:80%;float:left">
+							<table>
+								<tr>
+									<td style="border:0px;width:350px">
+										<img style="height:180px;width:300px" src="images/clarionlive.jpg"/>
+									</td>
+									<td style="border:0px;text-align:left;vertical-align:top">
+										<b>Clarion Hotel Malmö Live (4 star)</b><br/>
+										Just across the street from Niagara, Clarion Hotel Malmö Live is a new landmark in the city’s skyline. Newly built, fresh and with all the amenities you could wish for, including a bar with great views of the city.<br/><br/>
+
+										<b>Address:</b> Dag Hammarskjölds torg 2, 211 18 Malmö <br/>
+										(<a href="https://maps.app.goo.gl/c3AHMQ1mGzcTvMoQ7" target="_blank">Google maps</a>, ca. 100m / 2 min walk from the conference venue)
+									</td>
+								</tr>
+								<tr>
+									<td style="border:0px;text-align:left" colspan="2">
+										<button onclick="location.href='https://www.strawberry.se';">www.strawberry.se</button>
+									</td>
+								</tr>
+							</table>
+						</div>
+						
+					</p>
+
+					<p>
+						<div style="width:80%;float:left">
+							<table>
+								<tr>
+									<td style="border:0px;width:350px">
+										<img style="height:180px;width:300px" src="images/comforthotel.jpg"/>
+									</td>
+									<td style="border:0px;text-align:left;vertical-align:top">
+										<b>Comfort Hotel (3 star)</b><br/>
+										Right next to Malmö Central is the Comfort Hotel, a nice mix of a 19th century market hall with dizzying ceiling heights, and a modern interior with a rock feel. Here you can play boules, table tennis and table football in their Playground for grown-ups.<br/><br/>
+
+										<b>Address:</b> Carlsgatan 10C, 211 20 Malmö <br/>
+										(<a href="https://maps.app.goo.gl/j3UaAoLMe5KdhD4M9" target="_blank">Google maps</a>, ca. 800m / 8 min walk from the conference venue)
+									</td>
+								</tr>
+								<tr>
+									<td style="border:0px;text-align:left" colspan="2">
+										<button onclick="location.href='https://www.strawberry.se';">www.strawberry.se</button>
+									</td>
+								</tr>
+							</table>
+						</div>
+						
+					</p>
+
+
+					</div>
+
+
+
                     </div>
-
-                    <h4>Accommodation Options</h4>
-                    <p style="text-align: justify;">
-                        Looking for a place to stay? Below is a curated selection of hotels located close to the venue. Accommodation is <b>not included in the conference registration</b>. Malmö University has arranged special discounted rates at several nearby hotels through block bookings for EUMAS 2026 participants. Rooms are limited and offered on a first-come, first-served basis, so participants are encouraged to secure accommodation early.
-                    </p>
-
-                    <h4>Nearby Hotels</h4>
-
-                    <div class="hotel-card">
-                        <img src="images/nobelhouse.jpg" alt="Best Western Plus Hotel Noble House" />
-                        <div class="hotel-info">
-                            <h4>Best Western Plus Hotel Noble House (4 star)</h4>
-                            <p>In the heart of the city stands Hotel Noble House, close to culture, shopping, nightlife, parks, and the conference venue.</p>
-                            <p><b>Address:</b> Per Weijersgatan 6, 211 34 Malmö<br/>
-                            (<a href="https://maps.app.goo.gl/dSGhrsPboCNQS9AE9" target="_blank">Google maps</a>, ca. 750 m / 10 min walk from the conference venue)</p>
-                            <p><a class="cta-button" href="https://www.hotelnoblehouse.se/" target="_blank" rel="noopener noreferrer">Visit website</a></p>
-                        </div>
-                    </div>
-
-                    <div class="hotel-card">
-                        <img src="images/storyhotel.jpg" alt="Story Hotel Studio" />
-                        <div class="hotel-info">
-                            <h4>Story Hotel Studio (4 star)</h4>
-                            <p>Story Hotel is a boutique hotel close to Niagara and Orkanen, with modern rooms and views of Malmö’s city centre, the Öresund Bridge, and the sea.</p>
-                            <p><b>Address:</b> Tyfongatan 1, 211 19 Malmö<br/>
-                            (<a href="https://maps.app.goo.gl/uU1oSz1Jp362XfPH7" target="_blank">Google maps</a>, ca. 500 m / 7 min walk from the conference venue)</p>
-                            <p><a class="cta-button" href="https://www.storyhotels.com" target="_blank" rel="noopener noreferrer">Visit website</a></p>
-                        </div>
-                    </div>
-
-                    <div class="hotel-card">
-                        <img src="images/clarionlive.jpg" alt="Clarion Hotel Malmö Live" />
-                        <div class="hotel-info">
-                            <h4>Clarion Hotel Malmö Live (4 star)</h4>
-                            <p>Just across the street from Niagara, Clarion Hotel Malmö Live is a modern landmark with full amenities and a bar with city views.</p>
-                            <p><b>Address:</b> Dag Hammarskjölds torg 2, 211 18 Malmö<br/>
-                            (<a href="https://maps.app.goo.gl/c3AHMQ1mGzcTvMoQ7" target="_blank">Google maps</a>, ca. 100 m / 2 min walk from the conference venue)</p>
-                            <p><a class="cta-button" href="https://www.strawberry.se" target="_blank" rel="noopener noreferrer">Visit website</a></p>
-                        </div>
-                    </div>
-
-                    <div class="hotel-card">
-                        <img src="images/comforthotel.jpg" alt="Comfort Hotel" />
-                        <div class="hotel-info">
-                            <h4>Comfort Hotel (3 star)</h4>
-                            <p>Located next to Malmö Central Station, Comfort Hotel combines a historic market-hall setting with modern interiors and easy access to the venue.</p>
-                            <p><b>Address:</b> Carlsgatan 10C, 211 20 Malmö<br/>
-                            (<a href="https://maps.app.goo.gl/j3UaAoLMe5KdhD4M9" target="_blank">Google maps</a>, ca. 800 m / 8 min walk from the conference venue)</p>
-                            <p><a class="cta-button" href="https://www.strawberry.se" target="_blank" rel="noopener noreferrer">Visit website</a></p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-
 
 	<section id="committee">
 		<div class="container">
